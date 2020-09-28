@@ -1,29 +1,46 @@
-html {
+body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 36px;
-    line-height: 61px;
-
+    font-size: 22px;
+    line-height: 37px;
+    padding: 23px;
 }
-#wrapper {
-    width: 1208px;
+
+#main {
     margin-left: auto;
     margin-right: auto;
+    width: 960px;
 }
-footer {
-    text-align: center;
+
+#content {
+    width: 760px;
+    float: left;
 }
+
+#sidebar {
+    float: left;
+}
+
 h1 {
-    font-size: 200%;
+    font-size: 45px;
+    line-height: 70px;
+    margin-bottom: 37px;
 }
+
 h2 {
-    font-size: 180%;
+    font-size: 36px;
+    line-height: 57px;
+    margin-top: 60px;
+    margin-bottom: 23px;
 }
 h3 {
-    font-size: 160%;
+    font-size: 28px;
+    line-height: 46px;
+    margin-top: 37px;
+    margin-bottom: 14px;
 }
-menu {
-    padding-left: 0px;
-}
-menu li {
-    display: inline;
+h4 {
+    font-size: 22px;
+    line-height: 37px;
+    font-weight: bold;
+    margin-bottom: 9px;
 }
